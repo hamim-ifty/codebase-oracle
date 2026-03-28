@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+google-generativeai
+supabase
+httpx
+gitpython
+pydantic
+pydantic-settings
+langchain-text-splitters
+python-multipart
