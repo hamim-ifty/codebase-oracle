@@ -22,7 +22,7 @@ class RAGPipeline:
         self.embedder = GeminiEmbedder()
         self.vector_store = SupabaseVectorStore()
         self.model = genai.GenerativeModel(
-            model_name="gemini-2.0-flash",
+            model_name="gemini-3-flash-preview",
             system_instruction=SYSTEM_PROMPT,
         )
 
